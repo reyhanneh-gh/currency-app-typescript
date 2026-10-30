@@ -36,7 +36,7 @@
 این پروژه با هدف تمرین و پیاده‌سازی مفاهیم React و یادگیری TypeScript، مدیریت state، تعریف Typeها، تایپ‌گذاری Props، انتقال داده بین کامپوننت‌ها، مدیریت رویدادهای کاربر و توسعه یک اپلیکیشن تعاملی تحت وب پیاده‌سازی شده است.
 
 ## 🐋 دموی آنلاین
-[مشاهده نسخه آنلاین پروژه](https://currency-app-typescript-s9jp.vercel.app/)
+[مشاهده نسخه آنلاین پروژه](https://currency-app-typescript-q9de.vercel.app/)
 
 
 ## 🌀 نسخه JavaScript
