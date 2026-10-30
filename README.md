@@ -1,75 +1,42 @@
-# React + TypeScript + Vite
+# مبدل ارز | Currency Converter (TypeScript)
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+یک اپلیکیشن تحت وب برای تبدیل دلار به ریال و ریال به دلار، با امکان تعیین نرخ ارز توسط کاربر و تغییر جهت تبدیل. این نسخه با استفاده از TypeScript و React پیاده‌سازی شده است.
 
-Currently, two official plugins are available:
+## 🌀 ویژگی‌ها
+- **تعیین نرخ ارز:** امکان وارد کردن نرخ تبدیل دلار به ریال توسط کاربر
+- **تغییر جهت تبدیل:** جابه‌جایی بین حالت تبدیل دلار به ریال و ریال به دلار با استفاده از دکمه تغییر جهت
+- **محاسبه مبلغ:** دریافت مبلغ مورد نظر و محاسبه مقدار تبدیل‌شده بر اساس نرخ ارز و جهت انتخاب‌شده
+- **نمایش نتیجه:** نمایش نتیجه محاسبه در رابط کاربری
+- **طراحی فول ریسپانسیو:** سازگار با اندازه‌های مختلف صفحه‌ نمایش
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## 🌀 تکنولوژی‌های استفاده‌شده
+- React – ساخت رابط کاربری و مدیریت کامپوننت‌ها و state
+- TypeScript – تعریف Typeها و افزایش اطمینان از صحت داده‌ها و Props
+- Vite – ابزار توسعه و اجرای پروژه
+- Tailwind CSS – طراحی و استایل‌دهی رابط کاربری
+- Git & GitHub – مدیریت نسخه و نگهداری کد پروژه
 
-## React Compiler
+## 🌀 جزئیات پیاده‌سازی
+- استفاده از useState برای مدیریت وضعیت ورودی‌ها، نرخ ارز، جهت تبدیل و نتیجه محاسبه
+- تعریف Typeهای اختصاصی برای مشخص کردن نوع داده‌ها
+- تایپ‌گذاری Props کامپوننت‌ها برای انتقال داده‌ها و توابع به‌شکل Type-safe
+- استفاده از ایونت‌های onChange و onClick برای مدیریت تعاملات کاربر
+- استفاده از شرط‌ها برای انتخاب فرمول مناسب بر اساس جهت تبدیل
+- اعتبارسنجی ورودی‌ها پیش از انجام محاسبات
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 🌀 نحوه استفاده
+1. نرخ تبدیل دلار به ریال را وارد کنید.
+2. مبلغ موردنظر برای تبدیل را وارد کنید.
+3. با استفاده از دکمه تغییر جهت، نوع تبدیل را انتخاب کنید.
+4. روی دکمه محاسبه کلیک کنید تا نتیجه نمایش داده شود.
 
-## Expanding the ESLint configuration
+## 🌀 هدف پروژه
+این پروژه با هدف تمرین و پیاده‌سازی مفاهیم React و TypeScript، مدیریت state، تعریف Typeها، تایپ‌گذاری Props، انتقال داده بین کامپوننت‌ها، مدیریت رویدادهای کاربر و توسعه یک اپلیکیشن تعاملی تحت وب پیاده‌سازی شده است.
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+## 🌀 نسخه JavaScript
+نسخه اولیه این پروژه با JavaScript و React پیاده‌سازی شده است.
 
-```js
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+[مشاهده ریپازیتوری نسخه JavaScript](YOUR_JAVASCRIPT_REPOSITORY_URL)
 
-      // Remove tseslint.configs.recommended and replace with this
-      tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      tseslint.configs.stylisticTypeChecked,
-
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
-
-You can also install [eslint-plugin-react-x](https://npmx.dev/package/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://npmx.dev/package/eslint-plugin-react-dom) for React-specific lint rules:
-
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default defineConfig([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
-
-```
+## 🐋 دموی آنلاین
+[مشاهده نسخه آنلاین پروژه](YOUR_TYPESCRIPT_LIVE_DEMO_URL)
