@@ -4,7 +4,7 @@ function Layout({ currency, currencyChange, rate, setRate, amount, setAmount, re
     return (
         <section className="w-11/12 md:w-3/4 lg:w-2/3 h-fit flex flex-wrap justify-center items-center formBg rounded-[10px] py-10 px-2.5 my-5">
             {/* --------------------1 dollar rate input------------ */}
-            <lable className="w-full h-fit text-[18px] md:text-[20px] text-center text-white font-bold">Exchange Rate</lable>
+            <label className="w-full h-fit text-[18px] md:text-[20px] text-center text-white font-bold">Exchange Rate</label>
             <p className="w-full h-fit text-[16px] md:text-[18px] text-center text-blue-400">
                 1 USD = ? Rials
             </p>
