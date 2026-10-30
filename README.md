@@ -10,12 +10,11 @@
 - **طراحی فول ریسپانسیو:** سازگار با اندازه‌های مختلف صفحه‌ نمایش
 
 ## 🌀 تکنولوژی‌های استفاده‌شده
-- React – ساخت رابط کاربری و مدیریت کامپوننت‌ها و state
-- TypeScript – تعریف Typeها و افزایش اطمینان از صحت داده‌ها و Props
-- Vite – ابزار توسعه و اجرای پروژه
-- Tailwind CSS – طراحی و استایل‌دهی رابط کاربری
-- Git & GitHub – مدیریت نسخه و نگهداری کد پروژه
-
+- **React** – ساخت رابط کاربری و مدیریت کامپوننت‌ها و state
+- **JavaScript (ES6+)** – پیاده‌سازی منطق برنامه و مدیریت رویدادها
+- **Vite** – ابزار توسعه و اجرای پروژه
+- **Tailwind CSS** – طراحی و استایل‌دهی رابط کاربری
+- **Git & GitHub** – مدیریت نسخه و نگهداری کد پروژه
 ## 🌀 جزئیات پیاده‌سازی
 - استفاده از useState برای مدیریت وضعیت ورودی‌ها، نرخ ارز، جهت تبدیل و نتیجه محاسبه
 - تعریف Typeهای اختصاصی برای مشخص کردن نوع داده‌ها
@@ -33,10 +32,23 @@
 ## 🌀 هدف پروژه
 این پروژه با هدف تمرین و پیاده‌سازی مفاهیم React و TypeScript، مدیریت state، تعریف Typeها، تایپ‌گذاری Props، انتقال داده بین کامپوننت‌ها، مدیریت رویدادهای کاربر و توسعه یک اپلیکیشن تعاملی تحت وب پیاده‌سازی شده است.
 
+## 🐋 دموی آنلاین
+[مشاهده نسخه آنلاین پروژه](https://currency-ag5vj2k7m-reyhanneh-ghs-projects.vercel.app/)
+
+
 ## 🌀 نسخه JavaScript
 نسخه اولیه این پروژه با JavaScript و React پیاده‌سازی شده است.
 
-[مشاهده ریپازیتوری نسخه JavaScript](YOUR_JAVASCRIPT_REPOSITORY_URL)
+[مشاهده ریپازیتوری نسخه JavaScript](https://github.com/reyhanneh-gh/currency-app)
 
-## 🐋 دموی آنلاین
-[مشاهده نسخه آنلاین پروژه](YOUR_TYPESCRIPT_LIVE_DEMO_URL)
+### 📸 اسکرین‌شات  
+
+<table>  
+  <tr>  
+    <td width="70%" valign="top">  
+      <img src="https://github.com/user-attachments/assets/164b1722-f669-44dc-9e7f-89f491b2e624" alt="Desktop View" width="100%" />  
+    </td>  
+    <td width="30%" valign="top">  
+      <img src="https://github.com/user-attachments/assets/c0ad7660-6349-4eb0-9de6-cf697ebe3175" alt="Mobile View" width="100%" />  
+    </td>  
+  </tr> 
