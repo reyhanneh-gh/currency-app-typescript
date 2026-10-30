@@ -1,11 +1,10 @@
-export type myCurrency = "$" | "ريال"
-
+export type myCurrency = "$" | "ریال"
 export type myProps = {
     currency: myCurrency
     currencyChange: () => void
-    rate: number
+    rate: string
     setRate: React.Dispatch<React.SetStateAction<string>>
-    amount: number
+    amount: string
     setAmount: React.Dispatch<React.SetStateAction<string>>
     setResult: React.Dispatch<React.SetStateAction<string | number>>
     calculate: () => void
