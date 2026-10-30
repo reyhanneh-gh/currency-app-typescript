@@ -43,7 +43,7 @@ function Layout({ currency, currencyChange, rate, setRate, amount, setAmount, re
                 </div>
 
                 <div className="w-full lg:w-fit h-fit flex justify-center items-center">
-                    <span onClick={currencyChange} className="rotate-90 lg:rotate-0 material-symbols-outlined mx-5 p-5 rounded-full bg-blue-500 text-white text-center text-[20px] border border-gray-700 hover:scale-[.9] hover:bg-blue-400 duration-300 cursor-pointer">sync_alt</span>
+                    <span onClick={currencyChange} className="rotate-90 lg:rotate-0 material-symbols-outlined m-5 lg:mx-5 lg:my-0 p-5 rounded-full bg-blue-500 text-white text-center text-[20px] border border-gray-700 hover:scale-[.9] hover:bg-blue-400 duration-300 cursor-pointer">sync_alt</span>
                 </div>
 
                 <div className="w-fit h-fit overflow-hidden bg-blue-300 rounded-[10px] flex justify-between items-center py-0.5 px-2.5">
