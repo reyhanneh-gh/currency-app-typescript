@@ -39,10 +39,6 @@
 [مشاهده نسخه آنلاین پروژه](https://currency-app-typescript-q9de.vercel.app/)
 
 
-## 🌀 نسخه JavaScript
-نسخه اولیه این پروژه با JavaScript و React پیاده‌سازی شده است.
-
-[مشاهده ریپازیتوری نسخه JavaScript](https://github.com/reyhanneh-gh/currency-app)
 
 ### 📸 اسکرین‌شات  
 
